@@ -5,15 +5,15 @@ body{
 
 header{
     text-align: center;
-    margin: 50px;
+    margin: 5rem;
 }
 
 h1{
-    font-size: 60px;
+    font-size: 4rem;
 }
 
 span{
-    font-size: 20px;
+    font-size: 1.2rem;
     color: darkgrey;
 }
 
@@ -54,66 +54,15 @@ i{
 
 .col-md-3{
     text-align: center;
-    padding: 40px;
 }
 
 .col-sm-3{
-    padding: 40px;
-    font-size: 20px;
-    border-radius: 20px;
-    margin-bottom: 20px;
+    padding: 3rem;
+    font-size: 1rem;
+    margin-bottom: 3rem;
 }
 
 /* Container-bootton */
-/*
-
-article{
-    border: 1px solid;
-    border-radius: 23px;
-    width: 293px;
-    height: 420px;
-}
-
-h3{
-    font-size: 65px;
-}
-
-.Font{
-    font-size: 20px;
-    text-align: start;
-    padding: 13px;
-}
-
-.description{
-    margin-top: -15px;
-    padding-left: 13px;
-    font-size: 20px;
-    text-align: start;
-}
-
-button{
-    position: relative;
-    bottom: 13%;
-    left: 35%;
-    border-radius: 20px;
-    height: 40px;
-    width: 39px;
-    background-color: black;
-    color: white;
-    font-size: 1rem;
-}
-
-.col-md-2{
-    position: relative;
-    left: 48%;
-    margin-bottom: 3%;
-    width: 250px;
-    height: 50px;
-    background: none;
-    border-radius: 20px;
-    font: bold 15px arial;
-}
-*/
 
 h3 {
     position: relative;
@@ -132,9 +81,9 @@ h3 {
     height: 420px;
 
     img{
-        width: 290px;
-        height: 330px;
-        border-radius: 20px;
+        width: 18.2rem;
+        height: 20rem;
+        border-radius: 1.4rem;
     }
     h4 {
         position: relative;
@@ -143,7 +92,7 @@ h3 {
     .description{
         position: relative;
         left: 0.8rem;
-        
+
         font-size: 1.3rem;
     }
     button{
@@ -159,6 +108,16 @@ h3 {
     span {
         font-weight: 700;
         color: black;
+    }
+    i {
+        position: relative;
+        left: 6.2rem;
+        border-radius: 2rem;
+        height: 2rem;
+        width: 2rem;
+        background-color: black;
+        color: white;
+        font-size: 1.3rem;
     }
 }
 
