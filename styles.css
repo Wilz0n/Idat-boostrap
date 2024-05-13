@@ -25,6 +25,14 @@ i{
     background-color: #c5c5c5;
 }
 
+.carousel-item img {
+    position: relative;
+    top: 0rem;
+    height: 50rem;
+    padding: 1rem;
+    margin-top: 0rem;
+}
+
 /* Navbar */
 
 .navbar-brand {
@@ -131,4 +139,21 @@ h3 {
     background: none;
     border-radius: 20px;
     font: bold 15px arial;
+}
+
+@media (max-width: 1402px) {
+    .article {
+        display: flex;
+        flex-direction: column;
+
+        position: relative;
+        right: -4.5rem;
+
+    }
+
+    .col-md-2{
+        position: relative;
+        bottom: 0rem;
+        left: 9rem;
+    }
 }
